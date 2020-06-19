@@ -33,7 +33,7 @@
   <br/>
   <br/>
 
-  <img src="./assets/sneaker_01.PNG">
+  <img src="./assets/sneakers_01.PNG">
   
   # Latest_Case
   To see the team in action, check out Sneakers here;
