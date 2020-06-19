@@ -27,8 +27,7 @@
   JoeWills615@gmail.com
 
 # Project_Images
-
-  <img src="./assets/sneakers_02.PNG>
+  <img src="./assets/sneakers_02.PNG">
 
   <br/>
   <br/>
