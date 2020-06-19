@@ -1,0 +1,15 @@
+.jumbotron {
+    background-color: rgb(168, 73, 73);
+    color: aliceblue;
+    font-family: fantasy;
+}
+
+.container {
+    background-color: rgb(192, 149, 149);
+    color: blue;
+}
+
+.card {
+    margin: 5px;
+    box-shadow: 1 black;
+}
