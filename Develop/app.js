@@ -1,6 +1,7 @@
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const Security = require("./lib/Security");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -58,9 +59,9 @@ function sneakers() {
         {
           type: "list",
           message:
-            "Do you want to create an engineer, intern, or build your team template?",
+            "Would you like to add an engineer, security, intern or finalize your team?",
           name: "memberChoice",
-          choices: ["engineer", "intern", "Build your team template"],
+          choices: ["engineer", "security", "intern", "finalize team"],
         },
       ])
       .then((res) => {
@@ -68,17 +69,20 @@ function sneakers() {
           case "engineer":
             addEngineer();
             break;
+          case "security":
+            addSecurity();
+            break;
           case "intern":
             addIntern();
             break;
-          case "Build your team template":
+          case "finalize team":
             buildTeam();
         }
       });
   }
-
-  function addEngineer() {
     // engineer's info segment
+  function addEngineer() {
+    
     
     inquirer
       .prompt([
@@ -111,9 +115,43 @@ function sneakers() {
       });
   }
 
-  function addIntern() {
+   // security's info segment
+  function addSecurity() {
+        
+    inquirer
+      .prompt([
+        {
+          type: "input",
+          message: "Who is handling security?",
+          name: "name",
+        },
+        {
+          type: "input",
+          message: "What is the ID number for security?",
+          name: "id",
+        },
+        {
+          type: "input",
+          message: "What is the email for the security officer?",
+          name: "email",
+        },
+        {
+          type: "input",
+          message: "What is the phone number for security?",
+          name: "managerOffice",
+        },
+      ])
+      //engineer's info results
+      .then((res) => {
+        const security = new Security(res.name, res.id, res.email, res.officeNumber);
+        team.push(security);
+        teamInfo();
+      });
+  }
+
     // intern's info segment
-    
+  function addIntern() {
+        
     inquirer
       .prompt([
         {

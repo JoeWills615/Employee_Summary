@@ -15,6 +15,10 @@ const render = employees => {
     .map(engineer => renderEngineer(engineer))
   );
   html.push(employees
+    .filter(employee => employee.getRole() === "Security")
+    .map(security => renderSecurity(security))
+  );
+  html.push(employees
     .filter(employee => employee.getRole() === "Intern")
     .map(intern => renderIntern(intern))
   );
@@ -40,6 +44,16 @@ const renderEngineer = engineer => {
   template = replacePlaceholders(template, "email", engineer.getEmail());
   template = replacePlaceholders(template, "id", engineer.getId());
   template = replacePlaceholders(template, "github", engineer.getGithub());
+  return template;
+};
+
+const renderSecurity = security => {
+  let template = fs.readFileSync(path.resolve(templatesDir, "security.html"), "utf8");
+  template = replacePlaceholders(template, "name", security.getName());
+  template = replacePlaceholders(template, "role", security.getRole());
+  template = replacePlaceholders(template, "email", security.getEmail());
+  template = replacePlaceholders(template, "id", security.getId());
+  template = replacePlaceholders(template, "officeNumber", security.getOfficeNumber());
   return template;
 };
 
