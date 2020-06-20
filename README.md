@@ -10,7 +10,7 @@
   * [Latest_Case](#latest_case)
 
 
-# Desciption
+# Description
   In today’s environment it’s important to have a skilled and professional digital team backing you for programming and security needs. Knowing who is on the team and how to reach them is critical. That is why the Employee Summary was created. You now know who is involved, what role they have, and how you can reach them in a time of need. 
 
 # Installation
@@ -30,11 +30,11 @@
 
   <img src="./images/sneakers_01.PNG>
 
-  <br/>
-  <br/>
+<br/>
+<br/>
 
-  <img src="./images/sneaker_01.PNG">
-  
+  <img src="./assets/sneakers_02.PNG">
+   
   # Latest_Case
   To see the team in action, check out Sneakers here;
   https://www.imdb.com/title/tt0105435/?ref_=fn_al_tt_1
