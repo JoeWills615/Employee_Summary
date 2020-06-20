@@ -27,13 +27,14 @@
   JoeWills615@gmail.com
 
 # Project_Images
+
+  <img src="./images/sneakers_01.PNG>
+
+<br/>
+<br/>
+
   <img src="./assets/sneakers_02.PNG">
-
-  <br/>
-  <br/>
-
-  <img src="./assets/sneakers_01.PNG">
-  
+   
   # Latest_Case
   To see the team in action, check out Sneakers here;
   https://www.imdb.com/title/tt0105435/?ref_=fn_al_tt_1
