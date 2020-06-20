@@ -27,13 +27,12 @@
   JoeWills615@gmail.com
 
 # Project_Images
-
-  <img src="./develop./images/sneakers_02.PNG">
+  <img src="./Develop/images/sneakers_02.PNG">
 
   <br/>
   <br/>
 
-  <img src="./develop./images/sneakers_01.PNG">
+  <img src="./Develop/images/sneakers_01.PNG">
    
   # Latest_Case
   To see the team in action, check out Sneakers here;
