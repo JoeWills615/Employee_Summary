@@ -28,12 +28,12 @@
 
 # Project_Images
 
-  <img src="./assets/sneakers_02.PNG>
+  <img src="./images/sneakers_01.PNG>
 
   <br/>
   <br/>
 
-  <img src="./assets/sneaker_01.PNG">
+  <img src="./images/sneaker_01.PNG">
   
   # Latest_Case
   To see the team in action, check out Sneakers here;
