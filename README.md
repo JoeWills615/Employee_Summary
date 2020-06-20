@@ -18,7 +18,7 @@
 
 # Demo
   Here is the link to the video demo; 
-  https://drive.google.com/file/d/1TSW5ZmY8ocDGQhTJuQsPlNZHjgwiUdYP/view
+  https://drive.google.com/file/d/1hDUPcYKdOlilKPwUzszTX3mcxr-QxtDp/view
 
 # Github_Info
   You can find the Employee Summary on github at https://github.com/JoeWills615/Employee_Summary
@@ -26,14 +26,10 @@
 # Email_Address
   JoeWills615@gmail.com
 
-# Project_Images
+# Project_Image
 
-  <img src="./images/sneakers_01.PNG>
+  <img src="./Develop/images/sneakers_01.PNG">
 
-  <br/>
-  <br/>
-
-  <img src="./images/sneaker_01.PNG">
   
   # Latest_Case
   To see the team in action, check out Sneakers here;

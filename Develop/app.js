@@ -38,7 +38,7 @@ function sneakers() {
         },
         {
           type: "input",
-          name: "managerOffice",
+          name: "officeNumber",
           message: "What is the manager's office phone number?",
         },
       ])
@@ -138,7 +138,7 @@ function sneakers() {
         {
           type: "input",
           message: "What is the phone number for security?",
-          name: "managerOffice",
+          name: "officeNumber",
         },
       ])
       //engineer's info results
